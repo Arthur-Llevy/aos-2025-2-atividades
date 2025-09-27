@@ -3,10 +3,10 @@ import { getAllTasks, createTask, getTaskById, deleteTask, updateTask } from "..
 
 const router = Router();
 
-router.get("/tasks", getAllTasks);
-router.post("/tasks", createTask);
-router.get("/tasks/:id", getTaskById);
-router.delete("/tasks/:id", deleteTask);
-router.put("/tasks/:id", updateTask);
+router.get("tarefas", getAllTasks);
+router.post("tarefas", createTask);
+router.get("tarefas/:id", getTaskById);
+router.delete("tarefas/:id", deleteTask);
+router.put("tarefas/:id", updateTask);
 
 export default router;
