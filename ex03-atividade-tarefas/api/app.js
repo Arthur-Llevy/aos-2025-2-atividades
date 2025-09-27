@@ -8,8 +8,8 @@ const app = express();
 app.set("trust proxy", true);
 
 app.use(cors({
-    origin: "*",
-    optionsSuccessStatus: 200
+  origin: "*",
+  optionsSuccessStatus: 200
 }));
 
 app.use((req, res, next) => {
